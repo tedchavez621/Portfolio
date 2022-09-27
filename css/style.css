@@ -21,7 +21,7 @@
     .navigation {
         width: 100%;
         box-sizing: border-box;
-        padding: 10px 20px;
+        padding: 15px 20px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -29,6 +29,7 @@
         top: 0;
         background-color: #B3E5FC;
         z-index: 10;
+        color: rgb(66, 66, 66);
     }
 
 
@@ -37,7 +38,7 @@
     .landing-page  {
         height: 100vh;
         width: 100%;
-        background-image: linear-gradient(to bottom, #B3E5FC 20%, #03A9F4 100%);
+        background-image: linear-gradient(to bottom, #B3E5FC 25%, #047eb6 100%);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -46,7 +47,7 @@
         position: relative;
         z-index: 1;
         overflow: hidden;
-        
+        background-attachment: fixed;
     }
     .intro-text {
         font-size: 3rem;
@@ -140,7 +141,6 @@
         height: 95vh;
         width: 100%;
     }
-
     .photo {
         padding: 30px 0 0 0;
         display: flex;
@@ -156,12 +156,45 @@
     .name {
         text-align: center;
         border-bottom: 1px solid gray;
+        padding: 5px 5px 15px 5px;
     }
     .name p:first-child {
         font-size: 24px;
+        font-weight: 700;
     }
     .name p:last-child {
         font-size: 14px;
+    }
+    .about {
+        padding: 15px;
+    }
+    .about p {
+        text-indent: 30px;
+        padding: 15px;
+        text-align: justify;
+        font-size: 13px;
+    }
+    .more {
+        margin: auto;
+        background-color: #389ff3;
+        width: fit-content;
+        color: white;
+        border: solid 1px #2f86ce;
+        border-radius: 3px;
+        padding: 5px;
+    }
+    .more:hover {
+        background-color: #1976D2;
+    }
+    .skills-cont {
+        height: 95vh;
+        width: 100%;
+    }
+
+    /*---resume page---*/
+    .resume-page {
+        height: 95vh;
+        width: 100%;
     }
 }
 
