@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+    transition: all .2s linear;
+}
+
+.container {
+    width: 100%;
+    overflow-x: hidden;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+
+    /*---navigation---*/
+    .navigation {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        background-color: #B3E5FC;
+        box-shadow: #97ddfd 0 2px 15px 0;
+    }
+
+
+    /*---langing page---*/
+    .landing-page  {
+        height: 95vh;
+        width: 100%;
+        background-image: linear-gradient(to bottom, #B3E5FC 20%, #03A9F4 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: black;
+    }
+    .intro-text {
+        font-size: 3rem;
+        font-family: 'Comfortaa', cursive;
+        font-weight: 700;
+        padding: 10px;
+    }
+
+
+    /*---about page---*/
+    .about-page {
+        height: 95vh;
+        width: 100%;
+    }
+
+    .photo {
+        padding: 30px 0 0 0;
+        display: flex;
+        justify-content: center;
+        background-image: url("../images/bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .photo img {
+        height: 175px;
+        width: 140px;
+    }
+    .name {
+        text-align: center;
+    }
+    .name p:first-child {
+        font-size: 24px;
+    }
+    .name p:last-child {
+        font-size: 14px;
+    }
+}
+
+
+
+@media  (min-width: 769px) {
+
+}
+
+
+
