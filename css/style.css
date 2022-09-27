@@ -27,7 +27,7 @@
         position: fixed;
         top: 0;
         background-color: #B3E5FC;
-        box-shadow: #97ddfd 0 2px 15px 0;
+        border-bottom: 1px solid lightgray;
     }
 
 
