@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    border: solid 1px black;
+    /* border: solid 1px black; */
     transition: all .2s linear;
     scroll-behavior: smooth;
 }
@@ -202,6 +202,8 @@
         display: flex;
         flex-direction: row;
         height: fit-content;
+        border: solid 2px rgb(59, 59, 59);
+        border-radius: 5px;
     }
     .lang-photo {
         width: 30%;
@@ -227,7 +229,12 @@
         padding: 5px;
         font-size: 14px;
     }
-
+    .mysql-title-bg {
+        background-color: #f29111;
+    }
+    .mysql-skills-bg {
+        background-color: #00758f;
+    }
     /*---resume page---*/
     
 }
