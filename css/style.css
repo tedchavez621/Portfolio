@@ -2,8 +2,9 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-
+    /* border: solid 1px black; */
     transition: all .2s linear;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -27,13 +28,14 @@
         position: fixed;
         top: 0;
         background-color: #B3E5FC;
-        border-bottom: 1px solid lightgray;
+        z-index: 10;
     }
 
 
     /*---langing page---*/
+
     .landing-page  {
-        height: 95vh;
+        height: 100vh;
         width: 100%;
         background-image: linear-gradient(to bottom, #B3E5FC 20%, #03A9F4 100%);
         display: flex;
@@ -41,14 +43,97 @@
         justify-content: center;
         align-items: center;
         color: black;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        
     }
     .intro-text {
         font-size: 3rem;
         font-family: 'Comfortaa', cursive;
-        font-weight: 700;
+        font-weight: 900;
         padding: 10px;
+        z-index: 3;
     }
-
+    .sub-text {
+        z-index: 3;
+    }
+    #circle1 {
+        position: absolute;
+        color: #55acf3ce;
+        top: 30%;
+        left: 10%;
+        filter: blur(1px);
+    }
+    #circle2 {
+        position: absolute;
+        color: #0d48a1da;
+        top: 60%;
+        left: 60%;
+        filter: blur(1px);
+    }
+    #circle3 {
+        position: absolute;
+        color: #e1f5fee3;
+        top: 90%;
+        left: 30%;
+        filter: blur(1px);
+    }
+    #circle4 {
+        position: absolute;
+        color: #5aa8cc;
+        top: 60%;
+        left: 40%;
+        filter: blur(1px);
+    }
+    #circle5 {
+        position: absolute;
+        color: #77b4e6ce;
+        top: 5%;
+        left: 70%;
+        filter: blur(1px);
+    }
+    #circle6 {
+        position: absolute;
+        color: #77c2ffda;
+        top: 55%;
+        left: 20%;
+        filter: blur(1px);
+    }
+    #circle7 {
+        position: absolute;
+        color: #7a9db9ce;
+        top: 25%;
+        left: 50%;
+        filter: blur(1px);
+    }
+    #circle8 {
+        position: absolute;
+        color: #4651f7ce;
+        top: 15%;
+        left: 10%;
+        filter: blur(1px);
+    }
+    #circle9 {
+        position: absolute;
+        color: #a8d7fdce;
+        top: 45%;
+        left: 60%;
+        filter: blur(1px);
+    }
+    #circle10 {
+        position: absolute;
+        color: #3c83bdce;
+        top: 25%;
+        left: 20%;
+        filter: blur(1px);
+    }#circle11 {
+        position: absolute;
+        color: #082136ce;
+        top: 80%;
+        left: -15%;
+        filter: blur(1px);
+    }
 
     /*---about page---*/
     .about-page {
@@ -70,6 +155,7 @@
     }
     .name {
         text-align: center;
+        border-bottom: 1px solid gray;
     }
     .name p:first-child {
         font-size: 24px;
