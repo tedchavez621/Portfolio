@@ -150,8 +150,8 @@
         background-size: cover;
     }
     .photo img {
-        height: 175px;
-        width: 140px;
+        height: 200px;
+        width: 200;
     }
     .name {
         text-align: center;
@@ -172,7 +172,7 @@
         text-indent: 30px;
         padding: 15px;
         text-align: justify;
-        font-size: 13px;
+        font-size: 14px;
     }
     .more {
         margin: auto;
@@ -181,7 +181,8 @@
         color: white;
         border: solid 1px #2f86ce;
         border-radius: 3px;
-        padding: 5px;
+        padding: 10px;
+        cursor: pointer;
     }
     .more:hover {
         background-color: #1976D2;
